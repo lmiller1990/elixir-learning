@@ -1,0 +1,17 @@
+cards/_build
+cards/cover
+cards/deps
+cards/doc
+cards/.fetch
+cards/erl_crash.dump
+cards/*.ez
+cards/*.beam
+
+identicon/_build
+identicon//cover
+identicon/deps
+identicon/doc
+identicon/.fetch
+identicon/erl_crash.dump
+identicon/*.ez
+identicon/*.beam
