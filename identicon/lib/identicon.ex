@@ -11,7 +11,7 @@ defmodule Identicon do
     # pattern match it out
     %Identicon.Image{hex: [r, g, b | _tail]} = image
 
-    [r, g, b]
+    %Identicon.Image{image | color: {r, g, b}}
   end
 
   def hash_input(input) do
